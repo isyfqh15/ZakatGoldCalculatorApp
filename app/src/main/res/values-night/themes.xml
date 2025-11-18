@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.ZakatGoldCalculator" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">@color/my_primary_color</item>
+    </style>
+
+    <style name="Theme.ZakatGoldCalculator" parent="Base.Theme.ZakatGoldCalculator" />
+</resources>
