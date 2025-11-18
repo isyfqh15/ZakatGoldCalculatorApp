@@ -31,7 +31,7 @@ public class AboutActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Log.d(TAG, "GitHub link clicked.");
-                String url = "https://github.com/isyfqh15/ICT602-ZakatGoldCalculator-.git";
+                String url = "https://github.com/isyfqh15/ZakatGoldCalculatorApp";
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
