@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
             Log.d(TAG, "Share button clicked.");
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
-            String shareBody = "Check out this Zakat Gold Calculator app! Find it at: https://github.com/isyfqh15/ICT602-ZakatGoldCalculator-.git";
+            String shareBody = "Check out this Zakat Gold Calculator app! Find it at: https://github.com/isyfqh15/ZakatGoldCalculatorApp";
             shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Zakat Gold Calculator App");
             shareIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
             startActivity(Intent.createChooser(shareIntent, "Share via"));
